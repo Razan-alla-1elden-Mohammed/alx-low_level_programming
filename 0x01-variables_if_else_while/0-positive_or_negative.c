@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * main -Entry point
+ * main - entry point
  *
- * Description: c program for true or false
+ * Description: true or false
  *
  * Return (0)(success)
  */
@@ -21,6 +21,6 @@ int main(void)
 	else if (n == 0)
 		printf("%i is zero\n", n);
 	else
-		printf("%i is negetive\n", n);
+		printf("%i is negative\n", n);
 	return (0);
 }
