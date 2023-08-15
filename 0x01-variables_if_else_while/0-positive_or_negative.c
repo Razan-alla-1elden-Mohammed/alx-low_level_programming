@@ -5,9 +5,9 @@
 /**
  * main -Entry point
  *
- * Description: A  c program for the varialbes
+ * Description: c program for true or false
  *
- * Return (0) (success)
+ * Return (0)(success)
  */
 
 int main(void)
