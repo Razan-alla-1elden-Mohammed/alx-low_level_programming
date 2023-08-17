@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *  _isalpha - Function to print a letter.
+ * _isalpha - Function to print a letter.
  *
  * @c: the character of the parameter.
  *
@@ -9,19 +9,9 @@
 
 int _isalpha(int c)
 {
-	char lower, upper;
-	int letter = 0;
-
-	for (lower = 'a'; lower <= 'z'; lower++)
+	if ((c >= 65 && c <= 97) || (c >= 97 && c <= 122))
 	{
-		for (upper = 'A'; upper <= 'Z'; upper++)
-		{
-			if (lower == c || upper == c)
-			{
-				letter = 1;
-			}
-
-		}
+		return (1);
 	}
-	return (letter);
+return (0);
 }
