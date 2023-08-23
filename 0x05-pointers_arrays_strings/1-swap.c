@@ -4,14 +4,13 @@
  * swap_int - function.
  * @a: character.
  * @b: character.
- * Return 0.
  */
 
 void swap_int(int *a, int *b)
 {
-	int swap;
-	
-	swap = *a;
-	*a = *b;
-	*b = swap;
+int swap;
+
+swap = *a;
+*a = *b;
+*b = swap;
 }
